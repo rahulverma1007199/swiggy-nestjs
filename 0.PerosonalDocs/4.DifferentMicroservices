@@ -1,0 +1,43 @@
+We have different microservices
+
+- Resturant Service - CRUD
+- User Service - 
+- FoodMenu Service -
+- Cart Service
+- Order Service
+- Payment Service
+- Delivery Service
+
+
+Front-end Architecture 
+
+For this project all the authentication is happening with the firebase and firebase will provide the token and we use same token for requestion the API data.
+The API gateway will talk to the respective services.
+
+AS we are using graphQL so for that we need apollo client library in the front-end to communicate with graphQL. and apollo server library at graphQL.
+
+for more see 3.FullArchitecutre.png
+
+
+- How we will organise/structure the components or how we will decide layout or routing.
+So we will adopt the atomic design for writing the react application (FE - front-end)
+
+here we will define componets in terms of atoms, molecules, organisms, templates and pages.
+
+and for testing we will use jest.
+
+Also we are using next js -- react framework.
+create nest js folder and install nest js and also install - 
+
+Project structure -
+src 
+    - pages - there are routes in the application
+
+generators (parallel to src)- this helps us to generate perticular components and to execute them, see if your package.json has "generate":"plop --plopfile generators/index.js" key, and do "npm run generate"
+
+graphQL -- is query and api mutation to our application layer.
+
+To generate atomic structure we use -  plopfile
+
+-- TODO -- need to study about This generation process, also right now in 10th chaper
+

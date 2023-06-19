@@ -1,0 +1,9 @@
+So we will render our react components with nginx routes and all the restful API will go to the graphQL api gateway and this gateway decides which request to send to which microsevices like order service, checkout or auth services.
+
+We will use graphQL client apollo server, we will use react with apollo client and use nest js for microservices in node js and graphQL apis for routing to microservices.
+
+So to implement/ build any application we need to follow some steps, for more refere to 0.5section.png
+
+We will follow Atomic design structure for react.
+
+When design an application make sure to have an ERD that can scale.

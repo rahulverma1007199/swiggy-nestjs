@@ -1,0 +1,20 @@
+Here we see the database for whole system.
+
+First table - User and it will be primary table, where type columns will be client,resturant or delivery guy. 
+- addresses 
+- Resturants table 
+- Menu table - which contains all the menus of different resturant
+- payment table 
+- message/communcating/chat table -
+- cart table
+- order table
+
+So a user has multiple addresses, payment, chats, carts
+a resutrant have multiple menu, carts
+
+We have not finalise the entities of table as we do this after finalising the architecture of microsevices.
+
+Also entities of each table will be keep refined as per the need, but we will go with the basic entities.
+
+
+

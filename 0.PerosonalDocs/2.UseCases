@@ -1,0 +1,20 @@
+So we have three use case and their respective functions, 
+
+1 - User side - where user can do things like - login, ordering, resutrants and more
+2 - Resturant owner - login,list of incoming order, change online/offline status, Menu etc.
+3 - Delivery Guy - Login, Map Tracking etc.
+
+for more see 1.UseCases.png
+
+Architecture / System Design 
+
+At first when user login - we create a token and session and all the further requests will be authenticate first.
+
+so when we request to "/" then nginx will redirect to client (react) and for all /api nginx will send it to graphQL which further communicates to respective microsevices.
+
+For more see 2.Architecture.png
+
+
+
+
+
